@@ -14,7 +14,7 @@ let account = null;
 
 const getAccount = async () => {
     result = await web3.eth.getAccounts();
-    return result[1]
+    return result[0]
 }
 
 const destinationWalletAddress = `0x149BfEE56893ae72DBc16CdC5B8Bc15970614b9F`

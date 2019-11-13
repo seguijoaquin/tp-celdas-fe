@@ -88,8 +88,8 @@ class App extends Component {
         <ReactTable
           data={this.state.data}
           columns={this.state.columns}
-          defaultPageSize = {5}
-          pageSizeOptions = {[5, 10, 25]}
+          defaultPageSize = {15}
+          pageSizeOptions = {[5, 10, 15]}
         />
       </div>
     );
